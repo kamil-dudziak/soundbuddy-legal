@@ -1,0 +1,60 @@
+<title>SoundBuddy — Polityka prywatności</title>
+<style>
+  :root { --fg:#1a1a1a; --muted:#555; --bg:#fff; --accent:#2b6cb0; --line:#e2e2e2; }
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --fg:#e8e8e8; --muted:#a0a0a0; --bg:#161616; --accent:#7cb3f0; --line:#333; } }
+  :root[data-theme="dark"]{ --fg:#e8e8e8; --muted:#a0a0a0; --bg:#161616; --accent:#7cb3f0; --line:#333; }
+  body{ background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system,Segoe UI,Roboto,sans-serif; max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+  h1{ font-size:1.7rem; margin:0 0 4px; } h2{ font-size:1.15rem; margin:2em 0 .4em; border-bottom:1px solid var(--line); padding-bottom:4px; }
+  .muted{ color:var(--muted); font-size:.92rem; } a{ color:var(--accent); }
+  .note{ background:rgba(43,108,176,.08); border-left:3px solid var(--accent); padding:10px 14px; border-radius:4px; font-size:.92rem; }
+  table{ border-collapse:collapse; width:100%; font-size:.93rem; margin:.5em 0; }
+  th,td{ border:1px solid var(--line); padding:7px 10px; text-align:left; vertical-align:top; } th{ background:rgba(128,128,128,.08); }
+  code{ background:rgba(128,128,128,.12); padding:1px 5px; border-radius:3px; font-size:.9em; }
+</style>
+
+<h1>Polityka prywatności — SoundBuddy</h1>
+<p class="muted">Ostatnia aktualizacja: 5 września 2026</p>
+
+<div class="note"><strong>Szkic do weryfikacji.</strong> Dokument opisuje faktyczne praktyki aplikacji, ale przed publikacją uzupełnij dane administratora/kontakt i rozważ przegląd prawny (dane zdrowotno-wspierające + użytkownicy małoletni pod nadzorem = RODO, w tym art. 8/9).</div>
+
+<h2>1. Administrator danych</h2>
+<p><strong>Kamil Dudziak</strong>, kontakt: <strong>soundbuddy.contact@gmail.com</strong>. Administrator odpowiada za przetwarzanie danych w aplikacji SoundBuddy („Aplikacja").</p>
+
+<h2>2. Kim są użytkownicy</h2>
+<p>Aplikacja jest narzędziem treningu słuchu dla <strong>osób z implantem ślimakowym, niezależnie od wieku</strong>, które potrafią samodzielnie obsłużyć telefon (co najmniej czytać). Z Aplikacji mogą korzystać także <strong>osoby małoletnie pod nadzorem</strong> rodzica lub opiekuna, który zakłada i zarządza kontem oraz wyraża zgodę na przetwarzanie danych.</p>
+
+<h2>3. Jakie dane przetwarzamy</h2>
+<table>
+  <tr><th>Kategoria</th><th>Dane</th><th>Źródło</th></tr>
+  <tr><td>Konto / logowanie</td><td>Adres e-mail konta Google, identyfikator użytkownika</td><td>Logowanie Google (Google Sign-In)</td></tr>
+  <tr><td>Aktywność treningowa</td><td>Identyfikator pary minimalnej, czas rozpoczęcia i zakończenia zadania, czas trwania, wynik (poprawnie / błędnie)</td><td>Korzystanie z Aplikacji</td></tr>
+</table>
+<p>Nie zbieramy danych o lokalizacji, kontaktów, zdjęć ani danych finansowych. Nie stosujemy reklam ani trackerów reklamowych.</p>
+
+<h2>4. Cele i podstawy przetwarzania</h2>
+<ul>
+  <li><strong>Prowadzenie treningu i informacja zwrotna</strong> — pokazanie użytkownikowi, które pary sprawiają trudność i co wymaga dalszych ćwiczeń.</li>
+  <li><strong>Statystyki postępów</strong> — podsumowanie czasu poświęconego na trening i efektów; docelowo wgląd dla użytkownika oraz opiekuna/dorosłego zarządzającego kontem.</li>
+  <li><strong>Ulepszanie Aplikacji</strong> — analiza zagregowanych danych o korzystaniu, aby poprawiać dobór ćwiczeń i jakość Aplikacji.</li>
+  <li><strong>Uwierzytelnianie</strong> — bezpieczne logowanie kontem Google.</li>
+</ul>
+<p>Podstawą przetwarzania jest <strong>zgoda</strong> użytkownika (lub opiekuna w przypadku osoby małoletniej) oraz <strong>uzasadniony interes</strong> w utrzymaniu i ulepszaniu Aplikacji.</p>
+
+<h2>5. Gdzie i jak przechowujemy dane</h2>
+<p>Dane przechowujemy w usłudze <strong>Supabase</strong> (baza PostgreSQL), w regionie <strong>Frankfurt (Unia Europejska)</strong>. Dane są szyfrowane <strong>w tranzycie (TLS)</strong> i <strong>w spoczynku</strong>. Dostęp do danych każdego użytkownika jest ograniczony na poziomie bazy (Row Level Security) — jeden użytkownik nie widzi danych innego.</p>
+
+<h2>6. Udostępnianie danych</h2>
+<p>Nie sprzedajemy danych. Korzystamy z podmiotów przetwarzających wyłącznie w zakresie działania Aplikacji: <strong>Google</strong> (logowanie) oraz <strong>Supabase</strong> (hosting bazy i uwierzytelnianie). Dane mogą zostać ujawnione, jeśli wymaga tego prawo.</p>
+
+<h2>7. Okres przechowywania i usuwanie</h2>
+<p>Dane przechowujemy tak długo, jak istnieje konto. Możesz w każdej chwili poprosić o <strong>usunięcie konta i danych</strong>, pisząc na adres kontaktowy powyżej. Usunięcie jest realizowane w rozsądnym terminie.</p>
+
+<h2>8. Twoje prawa (RODO)</h2>
+<p>Masz prawo do: dostępu do danych, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych, sprzeciwu oraz wniesienia skargi do organu nadzorczego (w Polsce: Prezes UODO). Zgodę możesz wycofać w każdej chwili.</p>
+
+<h2>9. Zmiany polityki</h2>
+<p>Możemy aktualizować niniejszą politykę. Istotne zmiany zakomunikujemy w Aplikacji lub pod tym adresem, wraz z datą aktualizacji.</p>
+
+<h2>10. Kontakt</h2>
+<p>W sprawach dotyczących danych osobowych: <strong>soundbuddy.contact@gmail.com</strong>.</p>
